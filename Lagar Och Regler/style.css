@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap'); 
+  
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Strike&display=swap');
+
+/* BODY */
+body{  
+    background-color: #FF7F50;
+}
+
+/* DIV */
+.divTop{
+    background-color: #F5F8BB;
+    border-radius: 20px;
+    min-height: 200px;
+}
+
+div{
+    background-color: #F5F8BB;
+    border-radius: 20px;
+}
+
+/* IMAGE */
+img{
+    float: left;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* TEXT */
+h1{
+    font-size: 35px;
+    text-align: center;
+    padding-right: 100px;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+h2{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h3{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+p{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.bottom{
+    padding-bottom: 10px;
+}
+
+/* LINKS */
+a{
+    font-size: x-large;
+    margin-left: 0;
+    padding-right: 2em;
+    color: #FF7F50;
+}
+
+.topLink{
+    align-content: center;
+}
+
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+}
+
+nav ul{
+    display: inline-block;
+    align-items: center;
+    list-style: none;
+}
+
+ul{
+    display: inline;
+    align-items: center;
+    align-content: center;
+}
+
+nav li{
+    text-align: center;
+    display: inline-block;
+}
+
+/* Media Queries */ 
+@media only screen and (min-width:828px) and (max-width:1200px){
+    
+}
+
+@media only screen and (min-width:50px) and (max-width:835px){
+
+    nav ul{
+        padding-left: 0px;
+       
+        align-items: center;
+    }
+
+    nav ul li{
+        display: block;
+    }
+
+    body{
+        width: fit-content;
+        background-color: aqua;
+    }
+
+    .topLink{
+        align-content: center;
+    }
+}
+
+@media only screen and (min-width:50px) and (max-width:535px){
+    nav ul{
+        padding-left: 0px;
+       
+        align-items: center;
+        display: block;
+        align-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+        background-color: blue;
+        width: 100%;
+    }
+
+    nav ul li{
+        display: block;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+       
+        
+       
+    }
+
+    body{
+        width: fit-content;
+        background-color: pink;
+    }
+
+    .topLink{
+       
+      
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+        
+    }
+
+    img{
+        display: none;
+        clear: both;
+    }
+
+    h1{
+ 
+        text-align: center;
+        background-color: aqua;
+       
+        padding:0px;
+        margin: 0px;
+       
+
+       
+    }
+
+    
+
+
+}
